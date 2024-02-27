@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Tan Moncheri';
+  src: url('assets/fonts/TAN-MONCHERI.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*======= RESET ===================*/
 * {
   margin: 0;
@@ -23,12 +30,12 @@ img {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 300;
+  --hue: 122;
   /* HSL color mode */
-  --base-color: hsl(var(--hue) 36% 57%);
-  --base-color-second: hsl(var(--hue) 65% 88%);
-  --base-color-alt: hsl(var(--hue) 57% 53%);
-  --title-color: hsl(var(--hue) 41% 10%);
+  --base-color: hsl(var(--hue) 17% 43%); /* Grey Asparagus: hsl(122, 17%, 31%), hsl(128, 10%, 43%), hsl(116, 7%, 56%) */
+  --base-color-second: hsl(var(--hue) 11% 88%);
+  --base-color-alt: hsl(var(--hue) 30% 53%);
+  --title-color: hsl(var(--hue) 30% 10%);
   --text-color: hsl(0 0% 46%);
   --text-color-light: hsl(0 0% 98%);
   --body-color: hsl(0 0% 98%);
@@ -36,7 +43,7 @@ img {
   /* fonts */
   --title-font-size: 1.875rem;
   --subtitle-font-size: 1rem;
-  --title-font: 'Poppins', sans-serif;
+  --title-font: 'Tan Moncheri', sans-serif;
   --body-font: 'DM Sans', sans-serif;
 }
 

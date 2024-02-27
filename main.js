@@ -1,4 +1,4 @@
-// MENU ABRE E FECHA QUANDO CLICA NOS ICONES
+// CHANGE HEADER WHEN SCROLLING
 const nav = document.querySelector('#header nav')
 const toggle = document.querySelectorAll('nav .toggle')
 
@@ -9,7 +9,7 @@ for(const element of toggle) {
   })
 }
 
-// MENU FECHA QUANDO CLICA NO ITEM DA LISTA DE MENU
+// MENU CLOSES WHEN CLICKING ON MENU LIST ITEM
 const links = document.querySelectorAll('nav ul li a')
 
 for (const link of links) {
@@ -18,7 +18,7 @@ for (const link of links) {
   })
 }
 
-// MUDAR O HEADER QUANDO SCROLL
+// CHANGE HEADER WHEN SCROLLING
 const header = document.querySelector("#header")
 const navHeight = header.offsetHeight
 function changeHeaderWhenScroll() {
@@ -71,7 +71,7 @@ function backToTopWhenScroll() {
     }
 }
 
-// MENU ATIVO CONFORME SEÇÃO VISÍVEL NA PÁGINA
+// ACTIVE MENU ACCORDING TO SECTION VISIBLE ON THE PAGE
 const sections = document.querySelectorAll('main section[id]')
 function activateMenuAtCurrentSection() {
 
@@ -94,7 +94,7 @@ function activateMenuAtCurrentSection() {
   }
 }
 
-// WHEN SCROLL 
+// WHEN SCROLLING
 window.addEventListener('scroll', () => {
   changeHeaderWhenScroll()
   backToTopWhenScroll()

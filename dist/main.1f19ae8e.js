@@ -121,7 +121,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
-// MENU ABRE E FECHA QUANDO CLICA NOS ICONES
+// CHANGE HEADER WHEN SCROLLING
 var nav = document.querySelector('#header nav');
 var toggle = document.querySelectorAll('nav .toggle');
 var _iterator = _createForOfIteratorHelper(toggle),
@@ -134,7 +134,7 @@ try {
     });
   }
 
-  // MENU FECHA QUANDO CLICA NO ITEM DA LISTA DE MENU
+  // MENU CLOSES WHEN CLICKING ON MENU LIST ITEM
 } catch (err) {
   _iterator.e(err);
 } finally {
@@ -151,7 +151,7 @@ try {
     });
   }
 
-  // MUDAR O HEADER QUANDO SCROLL
+  // CHANGE HEADER WHEN SCROLLING
 } catch (err) {
   _iterator2.e(err);
 } finally {
@@ -208,7 +208,7 @@ function backToTopWhenScroll() {
   }
 }
 
-// MENU ATIVO CONFORME SEÇÃO VISÍVEL NA PÁGINA
+// ACTIVE MENU ACCORDING TO SECTION VISIBLE ON THE PAGE
 var sections = document.querySelectorAll('main section[id]');
 function activateMenuAtCurrentSection() {
   var checkpoint = window.pageYOffset + window.innerHeight / 8 * 4;
@@ -235,7 +235,7 @@ function activateMenuAtCurrentSection() {
   }
 }
 
-// WHEN SCROLL 
+// WHEN SCROLLING
 window.addEventListener('scroll', function () {
   changeHeaderWhenScroll();
   backToTopWhenScroll();
@@ -266,7 +266,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55934" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56861" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
