@@ -61,11 +61,13 @@ body {
 }
 
 h2 {
+  font: 'Tan Moncheri' !important;
   font-size: 2.2em !important;
   font-weight: bold !important;
 }
 
 h3 {
+  
   font-size: 1.50em !important; 
   font-weight: bold !important; 
 }
