@@ -43,7 +43,7 @@ img {
   /* fonts */
   --title-font-size: 1.875rem;
   --subtitle-font-size: 1rem;
-  --title-font: 'Tan Moncheri', sans-serif;
+  --title-font: 'Tan Moncheri', sans-serif !important;
   --body-font: 'DM Sans', sans-serif;
 }
 
