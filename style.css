@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Tan Moncheri' !important;
+  font-family: 'Tan Moncheri';
   src: url('assets/fonts/TAN-MONCHERI.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -43,7 +43,7 @@ img {
   /* fonts */
   --title-font-size: 1.875rem;
   --subtitle-font-size: 1rem;
-  --title-font: 'Tan Moncheri', sans-serif !important;
+  --title-font: 'Tan Moncheri', sans-serif;
   --body-font: 'DM Sans', sans-serif;
 }
 
