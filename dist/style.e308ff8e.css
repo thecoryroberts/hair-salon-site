@@ -55,12 +55,12 @@ body {
 
 h2 {
   font-size: 2.2em !important;
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 h3 {
   font-size: 1.50em !important; 
-  font-weight: bold; 
+  font-weight: bold !important; 
 }
 
 .title {
