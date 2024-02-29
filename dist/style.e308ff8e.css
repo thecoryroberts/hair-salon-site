@@ -558,8 +558,6 @@ footer .social a:hover {
   transform: translateY(0);
 }
 
-/* ===== MEDIA QUERIES: Adicionar break points de acordo com o tamanho do dispositivo */
-
 /*==================================== extra-large devices: > 1200 */
 @media (min-width: 1200px) {
 
