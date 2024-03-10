@@ -422,7 +422,7 @@ nav.show div.icon-close {
 
 #testimonials blockquote p {
   position: relative;
-  text-indent: 1.875rem; /* Indentação (espaço parágrafo)*/
+  text-indent: 1.875rem; /* Indentation (paragraph space) */
   margin-bottom: 1.5rem;
   color: var(--title-color);
 }
@@ -445,7 +445,7 @@ nav.show div.icon-close {
 #testimonials cite img {
   width: 4rem;
   height: 4rem;
-  object-fit: cover; /* encaixe cobrindo o espaço */
+  object-fit: cover; 
   clip-path: circle();
   margin-right: .5rem;
 }
@@ -742,5 +742,36 @@ footer .social a:hover {
 }
 
 /* medium devices: > 767 */
+
+@media (min-width: 768px) {
+  .mobile-version {
+    display: none;
+  }
+}
+
+/* mobile devices: <= 767px */
+
+@media (max-width: 767px) {
+
+  .desktop-version {
+    display: none;
+  }
+
+  .section header {
+    margin-bottom: 0rem;
+  }
+  
+  img {
+    width: 80%; /* Reduces the image width to 70% of its original size, making it 30% smaller */
+    height: auto; /* Maintains the aspect ratio of the image */
+  }
+
+  #home .image img {
+    position: relative;
+    right: 0rem;
+  }
+
+}
+
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
