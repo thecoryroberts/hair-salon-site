@@ -45,6 +45,7 @@ img {
   --title-font-size: 1.875rem;
   --subtitle-font-size: 1rem;
   --title-font: 'Tan Moncheri', sans-serif;
+  --logo-font: 'Bricolage Grotesque', serif;
   --body-font: 'DM Sans', sans-serif;
 }
 
@@ -168,7 +169,7 @@ h3 {
 
 /*======= LOGO ===================*/
 .logo {
-  font: 700 1.31rem var(--title-font);
+  font: 700 1.31rem var(--logo-font);
   color: var(--title-color);
 }
 
