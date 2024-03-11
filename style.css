@@ -169,7 +169,7 @@ h3 {
 
 /*======= LOGO ===================*/
 .logo {
-  font: 700 1.31rem var(--logo-font);
+  font: 700 1.8rem var(--logo-font);
   color: var(--title-color);
 }
 
@@ -676,7 +676,7 @@ footer .social a:hover {
   }
 
   footer .logo {
-    font-size: 2.25rem;
+    font-size: 2.9rem;
   }
 }
 
