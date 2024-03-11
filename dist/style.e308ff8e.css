@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Tan Moncheri';
+  font-family: 'Bricolage Grotesque';
   src: url('/TAN-MONCHERI.d70fc564.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -44,7 +44,7 @@ img {
   /* fonts */
   --title-font-size: 1.875rem;
   --subtitle-font-size: 1rem;
-  --title-font: 'Tan Moncheri', sans-serif;
+  --title-font: 'Bricolage Grotesque', sans-serif;
   --logo-font: 'Bricolage Grotesque', serif;
   --body-font: 'DM Sans', sans-serif;
 }
@@ -63,14 +63,14 @@ body {
 }
 
 h2 {
-  font-family: 'Tan Moncheri' !important;
-  font-size: 2.2em !important;
+  font-family: 'Bricolage Grotesque' !important;
+  font-size: 3em !important;
   font-weight: bold !important;
 }
 
 h3 {
-  font-family: 'Tan Moncheri' !important;
-  font-size: 1.50em !important; 
+  font-family: 'Bricolage Grotesque' !important;
+  font-size: 2em !important; 
   font-weight: bold !important; 
 }
 
