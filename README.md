@@ -1,11 +1,11 @@
 # Hair Salon Website
 
-Welcome to the repository for a Hair Salon's website. This project showcases a modern and stylish website design tailored specifically for a hair salon business. Whether you're a stylist, a salon owner, or someone interested in the beauty industry, this website template offers a professional and visually appealing online presence for your salon.
+Welcome to the repository for a Hair Salon's website. This project showcases a modern and stylish website design tailored specifically for a hair salon business including both mobile and desktop views. Whether you're a stylist, a salon owner, or someone interested in the beauty industry, this website template offers a professional and visually appealing online presence for your salon.
 
 ## Live Demo
-Visit a live client demo: [Hair by Mihn](https://hairbyminh.netlify.app/)
+Visit a live client demo: [Kaizen Hair Studio](https://kaizenhair.com/)
 
-![](https://github.com/alexiabanos/react-developer-portfolio/blob/master/src/assets/gif/demo.gif)
+![](https://github.com/alexiabanos/hair-salon-site/blob/49596def360cf60e8c6bbd4972b30f4f2c43a91b/assets/gif/demo.gif)
 
 
 ## Features
